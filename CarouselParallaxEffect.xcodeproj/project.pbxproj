@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		806DA5CC286558480088FA0A /* CarouselParallaxEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806DA5CB286558480088FA0A /* CarouselParallaxEffectApp.swift */; };
-		806DA5CE286558480088FA0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806DA5CD286558480088FA0A /* ContentView.swift */; };
+		806DA5CE286558480088FA0A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806DA5CD286558480088FA0A /* HomeView.swift */; };
 		806DA5D0286558490088FA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806DA5CF286558490088FA0A /* Assets.xcassets */; };
 		806DA5D3286558490088FA0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806DA5D2286558490088FA0A /* Preview Assets.xcassets */; };
+		806DA5DB2865593E0088FA0A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806DA5DA2865593E0088FA0A /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		806DA5C8286558480088FA0A /* CarouselParallaxEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselParallaxEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806DA5CB286558480088FA0A /* CarouselParallaxEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselParallaxEffectApp.swift; sourceTree = "<group>"; };
-		806DA5CD286558480088FA0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		806DA5CD286558480088FA0A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		806DA5CF286558490088FA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806DA5D2286558490088FA0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		806DA5DA2865593E0088FA0A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				806DA5CB286558480088FA0A /* CarouselParallaxEffectApp.swift */,
-				806DA5CD286558480088FA0A /* ContentView.swift */,
+				806DA5D9286559290088FA0A /* View */,
 				806DA5CF286558490088FA0A /* Assets.xcassets */,
 				806DA5D1286558490088FA0A /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				806DA5D2286558490088FA0A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		806DA5D9286559290088FA0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				806DA5CD286558480088FA0A /* HomeView.swift */,
+				806DA5DA2865593E0088FA0A /* CardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				806DA5CE286558480088FA0A /* ContentView.swift in Sources */,
+				806DA5CE286558480088FA0A /* HomeView.swift in Sources */,
+				806DA5DB2865593E0088FA0A /* CardView.swift in Sources */,
 				806DA5CC286558480088FA0A /* CarouselParallaxEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +287,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +317,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
