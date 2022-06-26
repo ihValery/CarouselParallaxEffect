@@ -12,6 +12,9 @@
 		806DA5D0286558490088FA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806DA5CF286558490088FA0A /* Assets.xcassets */; };
 		806DA5D3286558490088FA0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806DA5D2286558490088FA0A /* Preview Assets.xcassets */; };
 		806DA5DB2865593E0088FA0A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806DA5DA2865593E0088FA0A /* CardView.swift */; };
+		806DA5DD2867389B0088FA0A /* TempVideoExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806DA5DC2867389B0088FA0A /* TempVideoExample.swift */; };
+		806DA5DF28673B640088FA0A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806DA5DE28673B640088FA0A /* Color.swift */; };
+		806DA5E228673F270088FA0A /* TempVEItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806DA5E128673F270088FA0A /* TempVEItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		806DA5CF286558490088FA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806DA5D2286558490088FA0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		806DA5DA2865593E0088FA0A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		806DA5DC2867389B0088FA0A /* TempVideoExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempVideoExample.swift; sourceTree = "<group>"; };
+		806DA5DE28673B640088FA0A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		806DA5E128673F270088FA0A /* TempVEItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempVEItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 			children = (
 				806DA5CB286558480088FA0A /* CarouselParallaxEffectApp.swift */,
 				806DA5D9286559290088FA0A /* View */,
+				806DA5E028673B690088FA0A /* Extension */,
+				806DA5DC2867389B0088FA0A /* TempVideoExample.swift */,
+				806DA5E128673F270088FA0A /* TempVEItem.swift */,
 				806DA5CF286558490088FA0A /* Assets.xcassets */,
 				806DA5D1286558490088FA0A /* Preview Content */,
 			);
@@ -76,6 +85,14 @@
 				806DA5DA2865593E0088FA0A /* CardView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		806DA5E028673B690088FA0A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				806DA5DE28673B640088FA0A /* Color.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +167,10 @@
 			files = (
 				806DA5CE286558480088FA0A /* HomeView.swift in Sources */,
 				806DA5DB2865593E0088FA0A /* CardView.swift in Sources */,
+				806DA5DD2867389B0088FA0A /* TempVideoExample.swift in Sources */,
+				806DA5DF28673B640088FA0A /* Color.swift in Sources */,
 				806DA5CC286558480088FA0A /* CarouselParallaxEffectApp.swift in Sources */,
+				806DA5E228673F270088FA0A /* TempVEItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
