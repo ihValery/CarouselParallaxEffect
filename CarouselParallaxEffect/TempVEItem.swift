@@ -51,7 +51,7 @@ struct TempVEItem: View {
         }
         .frame(width: width)
         .frame(maxHeight: .infinity)
-        .background(.red)
+//        .background(.red)
     }
 }
 
