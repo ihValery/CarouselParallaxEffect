@@ -11,7 +11,7 @@ import SwiftUI
 struct CarouselParallaxEffectApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            TempVideoExample()
         }
     }
 }
